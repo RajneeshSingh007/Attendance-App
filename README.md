@@ -15,8 +15,33 @@ This project is designed and created for my college friend by me. It helps Teach
 Teacher/Mentor/Other.
 
 # ScreenShots
-....uploading.....
-
+<p>
+<img src= "https://raw.githubusercontent.com/RajneeshSingh007/Attendance-App/master/screenshots/device-2017-04-21-154551.png"/>
+</p>
+<p>
+<img src="https://raw.githubusercontent.com/RajneeshSingh007/Attendance-App/master/screenshots/device-2017-04-21-154641.png"/>
+</p>
+<p>
+<img src="https://raw.githubusercontent.com/RajneeshSingh007/Attendance-App/master/screenshots/device-2017-04-21-154659.png"/>
+</p>
+<p>
+<img src="https://raw.githubusercontent.com/RajneeshSingh007/Attendance-App/master/screenshots/device-2017-04-21-154717.png"/>
+</p>
+<p>
+<img src="https://raw.githubusercontent.com/RajneeshSingh007/Attendance-App/master/screenshots/device-2017-04-21-154731.png"/>
+</p>
+<p>
+<img src="https://raw.githubusercontent.com/RajneeshSingh007/Attendance-App/master/screenshots/device-2017-04-21-154748.png"/>
+</p>
+<p>
+<img src="https://raw.githubusercontent.com/RajneeshSingh007/Attendance-App/master/screenshots/device-2017-04-21-154810.png"/>
+</p>
+<p>
+<img src="https://raw.githubusercontent.com/RajneeshSingh007/Attendance-App/master/screenshots/device-2017-04-21-154830.png"/>
+</p>
+<p>
+<img src="https://raw.githubusercontent.com/RajneeshSingh007/Attendance-App/master/screenshots/device-2017-04-21-155021.png"/>
+</p>
 # Library
 <p>
  <ul>
