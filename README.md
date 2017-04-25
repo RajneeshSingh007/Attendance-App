@@ -42,7 +42,9 @@ Teacher/Mentor/Other.
 <p>
 <img src="https://raw.githubusercontent.com/RajneeshSingh007/Attendance-App/master/screenshots/device-2017-04-21-155021.png"/>
 </p>
+
 # Library
+
 <p>
  <ul>
  <li>
