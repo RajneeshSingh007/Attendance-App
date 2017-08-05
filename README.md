@@ -1,13 +1,13 @@
 # Attendance-App
 <h3>Introduction</h3>
-This project is designed and created for my college friend by me. It helps Teacher/Mentor/Other to take attendance and store data in mysql database using server.
+This project helps Teacher/Mentor/Other to take attendance and store data in mysql database using server.
 
 # Features
 - Beautiful LoginScreen.
-- Take attendance and save in database on server.
+- Teachers will be able to take attendance and save in database on server.
 
 # How it works
-- First Teacher/Mentor/Other Login from LoginScreen (currently login is predefined in mysql)
+- First Teachers/Mentor/Other Login from LoginScreen (currently login is predefined in mysql)
 - Select Subject Name.
 - Select Time,Batch,Status(present/absent).
 - Load checkbox when submit button selected, It is connected to php file(server) and upload status,rollno,date to mysql database.
@@ -55,10 +55,10 @@ Teacher/Mentor/Other.
     </li>
  </ul>
  </p>
- 
- <p> If you used this project,Let me know,To add project in the list</p>
- 
- <p> feel free to mail me @developerrajneeshsingh@gmail.com.</p>
+
+# Contact :
+
+ <p>mail me : @developerrajneeshsingh@gmail.com</p>
 
 # MIT License
 <pre>Copyright (c) 2017 Rajneesh Singh
