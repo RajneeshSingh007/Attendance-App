@@ -17,23 +17,38 @@ This project helps Teachers to take attendance and store, fetch data from mysql 
 
 # GuideLines
 
---> Setup Part :-
+ <b> Setup:-</b>
+ <br> </br>
 	1. Create demo2 database in mysql (from localhost/phpmyadmin).
+	<br> </br>
 	2. Select demo2 and import database file (from database folder/demo2.sql).
+	<br> </br>
 	3. Browse to c/wamp/www/create/ or c/xammp/htdocs/  create attendance folder and paste all php files inside attendance folder (from php/attendance).
+	<br> </br>
 	
---> Localhost Testing :-
+  <b> Localhost Testing:- </b>
+  <br> </br>
 	1. Start Wamp/Xampp server.
+	<br> </br>
 	2. In cmd run "ipconfig" command (make sure your pc/laptop is connected to network via lan/wifi) and note the ip of lan/wifi network .
+	<br> </br>
 	3. Open project in android studio.
+	<br> </br>
 	4. Change url address as per your ip address(from step 2) in com/java/attendance/misc/utils/Constants.java file
-		These url :-
-		    public static final String LOGINURL = "http://192.168.0.102/attendance/login.php";
-			public static final String INSERTATTEND = "http://192.168.0.102/attendance/insertAttendance.php";
-			public static final String VIEWATTENDANCE = "http://192.168.0.102/attendance/viewAttendance.php";
-			public static final String QUICKATTENDANCE = "http://192.168.0.102/attendance/quickAttendance.php";
+		<br> </br>
+		<b>These url :-</b>
+	<br> </br>
+	 		 public static final String LOGINURL = "http://192.168.0.102/attendance/login.php"
+			 <br> </br>
+			 public static final String INSERTATTEND = "http://192.168.0.102/attendance/insertAttendance.php"
+			<br> </br>
+		         public static final String VIEWATTENDANCE = "http://192.168.0.102/attendance/viewAttendance.php"
+			<br> </br>
+			 public static final String QUICKATTENDANCE = "http://192.168.0.102/attendance/quickAttendance.php"	
+	<br> </br>
 	5. Build app in android studio.
-	6. Finally test app in emulator/phone (for phone, you should config wamp to work on your phone ).
+	<br> </br>
+	6. Finally test app in emulator/phone (for phone, you should config wamp to work on your phone ).<br>
 
 # Note
 1. User login details is predefined (manually insert login details in demo2/teacher table).
@@ -82,7 +97,7 @@ This project helps Teachers to take attendance and store, fetch data from mysql 
 
 # Contact :
 
- <p>mail me : @developerrajneeshsingh@gmail.com</p>
+ <p>mailto:developerrajneeshsingh@gmail.com</p>
 
 # MIT License
 <pre>Copyright (c) 2017 Rajneesh Singh
