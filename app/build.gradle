@@ -1,0 +1,57 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 25
+    buildToolsVersion "25.0.2"
+    defaultConfig {
+        applicationId "com.attendance"
+        minSdkVersion 21
+        targetSdkVersion 25
+        versionCode 1
+        versionName "1.0"
+        multiDexEnabled true
+    }
+    buildTypes {
+        release {
+            minifyEnabled true
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+            debuggable false
+            shrinkResources true
+            zipAlignEnabled true
+        }
+    }
+}
+
+
+ext {
+    supportVersion = "25.2.0"
+}
+
+
+
+dependencies {
+    compile fileTree(include: ['*.jar'], dir: 'libs')
+
+    /**
+     * Android package
+     */
+    compile "com.android.support:support-v4:${supportVersion}"
+    compile "com.android.support:support-vector-drawable:${supportVersion}"
+    compile "com.android.support:appcompat-v7:${supportVersion}"
+    compile "com.android.support:cardview-v7:${supportVersion}"
+    compile "com.android.support:recyclerview-v7:${supportVersion}"
+    compile "com.android.support:design:${supportVersion}"
+    compile "com.android.support:palette-v7:${supportVersion}"
+    compile "com.android.support:percent:${supportVersion}"
+    compile "com.android.support:preference-v14:${supportVersion}"
+    /**
+     * Networking Library
+     */
+    compile 'com.amitshekhar.android:android-networking:0.4.0'
+
+    /**
+     * Date Picker
+     */
+    compile 'com.appeaser.sublimepickerlibrary:sublimepickerlibrary:2.1.1'
+
+}

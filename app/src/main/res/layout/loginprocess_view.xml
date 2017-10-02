@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:fitsSystemWindows="true"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+
+    <android.support.percent.PercentRelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+
+        <LinearLayout
+            android:id="@+id/showSignin"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_alignParentLeft="true"
+            android:background="@drawable/background"
+            android:orientation="horizontal"
+            app:layout_widthPercent="85%">
+
+            <com.attendance.misc.widgets.VerticalTextView
+                android:id="@+id/Login"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:padding="4dp"
+                android:layout_gravity="center"
+                android:text="Login"
+                android:textColor="#FFFFFF"
+                android:textSize="24sp"
+                android:visibility="gone"/>
+
+            <FrameLayout
+                android:id="@+id/login_container"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/showsignup"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_alignParentRight="true"
+            android:background="@drawable/background2"
+            android:orientation="horizontal"
+            app:layout_widthPercent="15%">
+
+            <com.attendance.misc.widgets.VerticalTextView
+                android:id="@+id/LoginText"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:padding="4dp"
+                android:rotation="180"
+                android:text="Login"
+                android:textColor="#FFFFFF"
+                android:textSize="24sp"
+                android:layout_gravity="center"
+                android:visibility="invisible" />
+
+        </LinearLayout>
+
+    </android.support.percent.PercentRelativeLayout>
+
+
+
+</android.support.design.widget.CoordinatorLayout>
