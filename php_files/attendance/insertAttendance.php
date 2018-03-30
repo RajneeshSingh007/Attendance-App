@@ -10,15 +10,16 @@
 	
 	
 	//isset function is applicable for variable is set or not
-	if(isset($_POST['atrollno']) && isset($_POST['atdiv']) && isset($_POST['atstatus']) && isset($_POST['atdate'])) {
+	if(isset($_POST['tablename']) && isset($_POST['atrollno']) && isset($_POST['atdiv']) && isset($_POST['atstatus']) && isset($_POST['atdate'])) {
 		
 		//got details
 		$rollnos = $_POST['atrollno'];
 		$date = $_POST['atdate'];
 		$atstatus = $_POST['atstatus'];
 		$div = $_POST['atdiv'];
+		$tablename = $_POST['tablename'];
 		
-		$sql ="INSERT INTO attendance(atdate, atstatus, atrollno, atdiv) VALUES ('".$date."', '".$atstatus."', '".$rollnos."', '".$div."')";
+		$sql ="INSERT INTO $tablename(atdate, atstatus, atrollno, atdiv) VALUES ('".$date."', '".$atstatus."', '".$rollnos."', '".$div."')";
 		if(mysqli_query($Conn, $sql) == true){
 			//show response in json format (JAVASCRIPT OBJECT NOTATION)
 			$response["error"] = FALSE;
