@@ -9,6 +9,7 @@ import com.attendance.misc.utils.Extras;
 /**
  * Created by Coolalien on 3/11/2017.
  */
+//////
 
 public class Attendance extends Application {
 
